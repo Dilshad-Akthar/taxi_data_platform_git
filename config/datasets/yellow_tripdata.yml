@@ -1,0 +1,22 @@
+dataset_name: yellow_tripdata
+
+source:
+  format: csv
+  path: /Volumes/taxi/source/source_data/
+  file_pattern: yellow_tripdata_*.csv
+  header: true
+  delimiter: ","
+
+target:
+  catalog: taxi
+  schema: bronze
+  table: yellow_tripdata
+
+schema:
+  name: yellow_trip_schema
+
+write:
+  mode: append
+
+audit:
+  enabled: true
