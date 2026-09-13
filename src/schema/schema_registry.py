@@ -1,6 +1,7 @@
 from pyspark.sql.types import StructType
 
-from yellow_trip_schema import YELLOW_TRIP_SCHEMA
+from .yellow_trip_schema import YELLOW_TRIP_SCHEMA
+
 
 
 class SchemaRegistry:
