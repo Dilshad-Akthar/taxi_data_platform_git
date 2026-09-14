@@ -717,7 +717,7 @@ The design separates configuration, application logic, orchestration, storage, a
 
 # Author
 
-**Dilshad Akthar**
+Dilshad Akthar
 
 Azure Databricks Data Engineering Project
 
